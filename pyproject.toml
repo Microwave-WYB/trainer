@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "trainer"
+version = "0.1.0"
+description = ""
+authors = ["Yibo Wei <david_wyb2001@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+tqdm = "^4.66.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
